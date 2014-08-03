@@ -1,0 +1,23 @@
+{
+    "name": "pmdevelopment/zeroclipboard-bundle",
+    "description": "Symfony2 Bundle for ZeroClipboard",
+    "require": {
+        "zeroclipboard/zeroclipboard": "2.1.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Joder",
+            "email": "sj@pmdevelopment.de",
+            "homepage": "http://www.pmdevelopment.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": { "PM\\Bundle\\ZeroClipboardBundle": "" }
+    },
+    "target-dir": "PM/Bundle/ZeroClipboardBundle"
+}
