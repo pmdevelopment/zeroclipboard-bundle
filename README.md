@@ -31,7 +31,7 @@ public function registerBundles()
 
 Add JavaScripts to use ZeroClipboard:
 
-``` javascript
+``` html
   <script type="text/javascript" src="{{ asset("/bundles/pmzeroclipboard/js/ZeroClipboard.min.js") }}"></script>
   <script type="text/javascript" src="{{ asset("/bundles/pmzeroclipboard/js/config.js") }}"></script>
 ```
